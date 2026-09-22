@@ -1,0 +1,34 @@
+IMAGENS USADAS NO SITE
+
+As imagens abaixo são de páginas que indicam uso gratuito. Antes de publicar comercialmente, confira a licença atual da página original.
+
+1) LÍRIO — Pexels
+https://images.pexels.com/photos/17636541/pexels-photo-17636541.jpeg?cs=srgb&dl=pexels-eugene-golovesov-1810803-17636541.jpg&fm=jpg
+Página: https://www.pexels.com/photo/white-lily-flowers-17636541/
+
+2) LÍRIO EM JARDIM — Pexels
+https://images.pexels.com/photos/35903769/pexels-photo-35903769.jpeg?cs=srgb&dl=pexels-snow-chang-2148891262-35903769.jpg&fm=jpg
+Página: https://www.pexels.com/photo/elegant-white-lily-in-natural-garden-setting-35903769/
+
+3) FLORES EM VASO DE VIDRO — Hippopx / domínio público
+https://p3.hippopx.com/preview/940/289/white-lily-flowers-clear-glass-vase-soft-sunlight-elegant-composition-white-lilies-glass-vase-natural-light-floral-arrangement-minimalist-design-indoor-flowers.jpg
+Página: https://www.hippopx.com/en/free-photo-zxhit
+
+4) PLANTA VERDE EM VASO — Pexels
+https://images.pexels.com/photos/1974508/pexels-photo-1974508.jpeg?cs=srgb&dl=pexels-julia-kuzenkov-442028-1974508.jpg&fm=jpg
+Página: https://www.pexels.com/photo/green-indoor-plants-1974508/
+
+5) MONSTERA + PLANTAS — Pexels
+https://images.pexels.com/photos/37542276/pexels-photo-37542276.jpeg?cs=srgb&dl=pexels-noemiji-37542276.jpg&fm=jpg
+Página: https://www.pexels.com/photo/modern-indoor-plant-decor-with-monstera-37542276/
+
+6) FLORES ROSAS EM VASO — Pexels
+https://images.pexels.com/photos/6045200/pexels-photo-6045200.jpeg?cs=srgb&dl=pexels-skylar-kang-6045200.jpg&fm=jpg
+Página: https://www.pexels.com/photo/vase-with-flowers-in-room-6045200/
+
+COMO SALVAR:
+- Abra a URL direta no navegador.
+- Clique com o botão direito na imagem.
+- Escolha “Salvar imagem como...”.
+- Coloque os arquivos dentro da pasta assets do site.
+- Se quiser deixar tudo local, troque as URLs do index.html por: assets/nome-da-imagem.jpg

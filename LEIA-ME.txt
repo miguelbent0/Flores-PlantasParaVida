@@ -1,0 +1,29 @@
+JARDIM PARA ELA — GUIA RÁPIDO
+
+Arquivos:
+- index.html = estrutura e textos do site
+- style.css = todo o visual, responsividade e animações
+- script.js = filtros, favoritos, menu, modal e surpresa
+- IMAGENS-PARA-DOWNLOAD.txt = imagens usadas e links para salvar
+- assets/ = coloque aqui as imagens baixadas
+
+COMO ABRIR:
+1. Baixe/descompacte a pasta.
+2. Abra o arquivo index.html no Google Chrome.
+3. O site já funciona sem servidor.
+
+COMO DEIXAR AS IMAGENS NO COMPUTADOR:
+1. Abra IMAGENS-PARA-DOWNLOAD.txt.
+2. Salve as imagens dentro de assets.
+3. No index.html, substitua as URLs das imagens por assets/nome-do-arquivo.jpg.
+
+INTERAÇÕES:
+- Menu responsivo no celular.
+- Filtros de plantas.
+- Botão de favorito.
+- Janelas com detalhes das plantas.
+- Botão “Abrir uma surpresa”.
+- Rolagem suave.
+
+PERSONALIZAÇÃO:
+Procure no index.html por “Jardim para Ela” e pela frase “Feito com carinho para alguém especial” para trocar pelo nome e pela mensagem que quiser.

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um jardim digital feito com carinho: plantas, flores, decoração e o lírio como protagonista.">
+  <title>Jardim para Maria Julia ❤️🌿</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="topo" id="inicio">
+    <a class="logo" href="#inicio" aria-label="Jardim para Ela">
+      <span class="logo-flor">✿</span>
+      <span>Jardim para <b>Maria Julia, a mulher mais linda do mundo</b></span>
+    </a>
+
+    <nav class="menu" id="menu">
+      <a href="#inicio">Início</a>
+      <a href="#plantas">Plantas</a>
+      <a href="#flores">Flores</a>
+      <a href="#decoracao">Decoração</a>
+      <a href="#cuidados">Cuidados</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-fundo"></div>
+      <div class="hero-texto">
+        <span class="etiqueta">UM PEQUENO CANTINHO DE NATUREZA</span>
+        <h1>Um jardim feito<br>para <em>você.</em></h1>
+        <p>Plantas, flores e detalhes naturais para transformar qualquer espaço em um lugar mais leve, bonito e cheio de vida.</p>
+        <div class="hero-acoes">
+          <a class="btn principal" href="#lirio">Conhecer o lírio <span>↓</span></a>
+          <a class="btn secundario" href="#plantas">Explorar o jardim</a>
+        </div>
+      </div>
+      <div class="hero-flor" aria-hidden="true">✿</div>
+      <div class="hero-detalhe">verde<br>calma<br>vida</div>
+    </section>
+
+    <section class="intro" id="lirio">
+      <div class="intro-imagem imagem-lirio">
+        <img src="https://images.pexels.com/photos/17636541/pexels-photo-17636541.jpeg?cs=srgb&dl=pexels-eugene-golovesov-1810803-17636541.jpg&fm=jpg" alt="Lírios brancos em close-up">
+        <span class="numero">01</span>
+      </div>
+      <div class="intro-texto">
+        <span class="mini-titulo">A flor principal</span>
+        <h2>O <em>lírio</em></h2>
+        <p>O lírio é uma flor marcante pela aparência delicada e elegante. Seus tons claros combinam muito bem com ambientes naturais, modernos e românticos.</p>
+        <p>No jardim deste site, ele representa delicadeza, beleza e aquele toque especial que faz um espaço parecer mais acolhedor.</p>
+        <div class="ficha">
+          <div><b>🌱</b><span><strong>Estilo</strong> Elegante e delicado</span></div>
+          <div><b>☀</b><span><strong>Luz</strong> Claridade e luz adequada</span></div>
+          <div><b>💧</b><span><strong>Cuidado</strong> Rega sem encharcar</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="plantas">
+      <div class="cabecalho-secao">
+        <div><span class="mini-titulo">Folhagens que transformam</span><h2>Plantas para trazer<br><em>vida</em> ao ambiente.</h2></div>
+        <p>Conheça algumas espécies que ficam lindas na decoração e descubra qual combina com cada estilo de espaço.</p>
+      </div>
+
+      <div class="filtros" role="group" aria-label="Filtrar plantas">
+        <button class="filtro ativo" data-filtro="todos">Todas</button>
+        <button class="filtro" data-filtro="facil">Fáceis de cuidar</button>
+        <button class="filtro" data-filtro="folhagem">Folhagens</button>
+        <button class="filtro" data-filtro="ambiente">Para interiores</button>
+      </div>
+
+      <div class="cards" id="cardsPlantas">
+        <article class="card planta-card" data-tags="folhagem ambiente">
+          <div class="card-img"><img src="https://images.pexels.com/photos/1974508/pexels-photo-1974508.jpeg?cs=srgb&dl=pexels-julia-kuzenkov-442028-1974508.jpg&fm=jpg" alt="Planta verde em vaso terracota"><button class="favorito" aria-label="Favoritar planta">♡</button></div>
+          <div class="card-body"><span>FOLHAGEM</span><h3>Bananeira ornamental</h3><p>Folhas grandes e marcantes que dão uma sensação tropical e deixam o ambiente cheio de presença.</p><button class="saiba" data-modal="bananeira">Ver detalhes →</button></div>
+        </article>
+
+        <article class="card planta-card" data-tags="facil ambiente">
+          <div class="card-img"><img src="https://images.pexels.com/photos/37542276/pexels-photo-37542276.jpeg?cs=srgb&dl=pexels-noemiji-37542276.jpg&fm=jpg" alt="Monstera e plantas em ambiente iluminado"><button class="favorito" aria-label="Favoritar planta">♡</button></div>
+          <div class="card-body"><span>INTERIOR</span><h3>Monstera</h3><p>Uma das folhagens mais charmosas para criar uma decoração moderna, verde e natural.</p><button class="saiba" data-modal="monstera">Ver detalhes →</button></div>
+        </article>
+
+        <article class="card planta-card" data-tags="facil ambiente">
+          <div class="card-img"><img src="https://images.pexels.com/photos/6045200/pexels-photo-6045200.jpeg?cs=srgb&dl=pexels-skylar-kang-6045200.jpg&fm=jpg" alt="Vaso decorativo com flores rosas"><button class="favorito" aria-label="Favoritar planta">♡</button></div>
+          <div class="card-body"><span>DECORAÇÃO</span><h3>Flores no vaso</h3><p>Um arranjo simples pode mudar completamente um cantinho: mesa, aparador, quarto ou janela.</p><button class="saiba" data-modal="vaso">Ver detalhes →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="faixa-lirio" id="flores">
+      <div class="faixa-conteudo">
+        <span class="mini-titulo">Flores para cada sentimento</span>
+        <h2>“Que nunca falte<br>um pouco de <em>natureza</em>.”</h2>
+        <p>Flores criam pontos de atenção, deixam o ambiente mais delicado e podem ser usadas tanto como protagonistas quanto em pequenos detalhes.</p>
+      </div>
+      <img src="https://p3.hippopx.com/preview/940/289/white-lily-flowers-clear-glass-vase-soft-sunlight-elegant-composition-white-lilies-glass-vase-natural-light-floral-arrangement-minimalist-design-indoor-flowers.jpg" alt="Flores brancas em vaso de vidro">
+    </section>
+
+    <section class="secao decoracao" id="decoracao">
+      <div class="cabecalho-secao central">
+        <span class="mini-titulo">Pequenos detalhes</span>
+        <h2>Decoração com alma <em>natural.</em></h2>
+        <p>O segredo está em misturar verde, madeira, cerâmica, vidro, fibras naturais e luz suave. O resultado fica bonito sem parecer exagerado.</p>
+      </div>
+
+      <div class="ideias">
+        <div class="ideia grande"><img src="https://images.pexels.com/photos/37542276/pexels-photo-37542276.jpeg?cs=srgb&dl=pexels-noemiji-37542276.jpg&fm=jpg" alt="Plantas em decoração natural"><div><span>01</span><h3>Verde + luz natural</h3><p>Coloque as plantas próximas a janelas e use a luz como parte da decoração.</p></div></div>
+        <div class="ideia"><div class="icone">◌</div><span>02</span><h3>Cerâmica</h3><p>Vasos de cerâmica deixam a composição mais artesanal e aconchegante.</p></div>
+        <div class="ideia"><div class="icone">⌂</div><span>03</span><h3>Madeira</h3><p>Madeira e verde formam uma combinação natural, quente e atemporal.</p></div>
+        <div class="ideia"><div class="icone">✧</div><span>04</span><h3>Detalhes leves</h3><p>Velas, livros, quadros botânicos e objetos claros completam o ambiente.</p></div>
+      </div>
+    </section>
+
+    <section class="cuidados" id="cuidados">
+      <div class="cuidados-inner">
+        <div><span class="mini-titulo">Para manter tudo bonito</span><h2>Cuidados simples,<br><em>resultado lindo.</em></h2></div>
+        <div class="passos">
+          <div class="passo"><b>01</b><div><h3>Observe a luz</h3><p>Cada planta possui uma necessidade diferente. Evite colocar qualquer espécie diretamente no sol sem saber se ela suporta.</p></div></div>
+          <div class="passo"><b>02</b><div><h3>Regue com atenção</h3><p>Antes de regar, observe a terra. O excesso de água pode ser tão prejudicial quanto a falta.</p></div></div>
+          <div class="passo"><b>03</b><div><h3>Limpe as folhas</h3><p>Retirar a poeira ajuda a manter as folhas bonitas e valoriza ainda mais a decoração.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mensagem">
+      <div class="folha">❧</div>
+      <span class="mini-titulo">Um detalhe só seu</span>
+      <h2>“Assim como um jardim,<br>o carinho também precisa<br>ser <em>cultivado.</em>”</h2>
+      <p>Feito com carinho para alguém especial. 🌿</p>
+      <button id="surpresa" class="btn principal">Abrir uma surpresa ♡</button>
+    </section>
+  </main>
+
+  <footer>
+    <div><span class="logo-flor">✿</span><strong>Jardim para Maria Julia</strong></div>
+    <p>Um pequeno jardim digital feito com muito carinho.</p>
+    <span>© 2026</span>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-caixa">
+      <button class="fechar" id="fechar">×</button>
+      <span class="mini-titulo">Um pouquinho mais</span>
+      <h2 id="modalTitulo">Planta</h2>
+      <p id="modalTexto"></p>
+      <div class="modal-dica"><strong>Dica:</strong> escolha sempre o local da planta de acordo com a quantidade de luz e o espaço disponível.</div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">♡ Favorito salvo!</div>
+  <script src="script.js"></script>
+</body>
+</html>
